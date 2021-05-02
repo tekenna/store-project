@@ -1,0 +1,122 @@
+nav {
+  box-shadow: 5px 5px 10px gray;
+  background-color: rgba(114, 77, 77, 0.11);
+}
+.nav_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.nav_home_link p {
+  padding-right: 1rem;
+  text-align: center;
+  color: var(--Blue);
+  font-weight: 900;
+  font-size: large;
+  color: rgba(15, 68, 141, 0.829);
+  padding-top: 0.3rem;
+}
+button{
+  text-align: center;
+}
+button:focus{
+  border: 3px solid gray;
+}
+.nav_home_link {
+  display: flex;
+  cursor: pointer;
+  transform: all 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+.nav_search_area form {
+  display: flex;
+  cursor: pointer;
+  transform: all 0.5s ease-in-out;
+}
+.search_area {
+  display: flex;
+  margin: 2rem auto;
+  width: 60%;
+  margin-top: -0.5rem;
+  margin-bottom:4rem;
+}
+.search_area input {
+  border: 1px solid var(--Yellow);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 2.5rem;
+  width: 95%;
+}
+
+.search_btn {
+  border: 1px solid var(--Yellow);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+  height: 2.5rem;
+  width: 5%;
+  cursor: pointer;
+  transform: all 0.5s ease-in-out;
+}
+
+.btn {
+  border: 1px solid var(--Yellow);
+  border-radius: 0.4rem;
+  height: 2rem;
+  margin-top: 1rem;
+  background-color: var(--FadeYellow);
+  color: var(--Blue);
+  margin-left: 1rem;
+  cursor: pointer;
+  transform: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: rgba(255, 251, 0, 0.171);
+}
+.nav_bottom{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content:  space-between;
+    margin-top: -3rem;   
+}
+.nav_bottom p{
+    color: var(--Red);
+}
+.cart_btn {
+  border: 3px solid var(--Yellow);
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  background-color: rgba(37, 64, 151, 0.082);
+  height: 2rem;
+  cursor: pointer;
+  transform: all 0.5s ease-in-out;
+  
+}
+#cart_icon {
+  margin: 0 1rem;
+}
+.cart_btn span {
+  color: rgb(114, 145, 13);
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px){
+  .nav_bottom{
+    display: block;
+    width: 90%;   
+  }
+  .search_area {
+    width: 90%;
+    margin-top: -0.5rem;
+    margin-bottom:4rem;
+  }
+  .search_btn {
+    width: 10%;
+  }
+  
+}

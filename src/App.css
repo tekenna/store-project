@@ -1,0 +1,23 @@
+:root {
+  --Blue: rgba(29, 107, 209, 0.829);
+  --Red: rgba(155, 47, 27, 0.829);
+  --Yellow: rgba(176, 187, 19, 0.829);
+  --FadeYellow: rgba(176, 187, 19, 0.144);
+  --Dark: rgb(49, 46, 46);
+  --Sky: rgb(29, 121, 182);
+  
+}
+
+body {
+  font-family: "Antonio", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(245, 252, 252);
+}
+.top_text {
+  font-family: "Zen Dots", cursive !important;
+}
+.style_text {
+  font-family: "Libre Baskerville", serif !important;
+}
